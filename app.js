@@ -1,27 +1,29 @@
-function sum(a,b){
+function getSum(a,b){
 var Sum = (a+b);
 
-console.log(sum(a,b));
-return sum;
+console.log(sum);
+
 }
+getSum();
 
 function getDifference(a,b){
     var  difference = (a-b);
 
-    console.log(difference(a,b));
-    return difference;
-    
+    console.log(difference);  
 } 
+getDifference();
 
 function getMultiply(a,b){
     var  multiply = (a*b);
 
-    console.log(multiply(a,b));
-    return multiply;
+    console.log(multiply);
+    
     
 } 
+getMultiply();
 
-function divideBy(a,b){
+
+function getQuotient(a,b){
     var  divide = (a/b);
 
     console.log(divide(a,b));
