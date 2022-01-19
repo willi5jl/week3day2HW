@@ -26,7 +26,8 @@ getMultiply();
 function getQuotient(a,b){
     var  divide = (a/b);
 
-    console.log(divide(a,b));
-    return divide;
+    console.log(divide);
+    
     
 } 
+getQuotient();
